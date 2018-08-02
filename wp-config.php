@@ -20,18 +20,18 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'hcdvilla');
+define('DB_NAME', 'hcdv1ll4');
 
 /** Tu nombre de usuario de MySQL */
-define('DB_USER', 'hcdvilla');
+define('DB_USER', 'hcdvillanuevo');
 //define('DB_USER', 'root');
 /** Tu contraseÃ±a de MySQL */
-define('DB_PASSWORD', 'tkAfF3h35NF5');
+define('DB_PASSWORD', 'GFMMkBEeHpB5');
 //define('DB_PASSWORD', '28Pmc398!');
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
+//define('DB_HOST', '190.228.29.62');
 define('DB_HOST', '192.168.0.63');
-
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
@@ -88,3 +88,4 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+define( 'UPLOADS', '/wp-content/uploads' );
